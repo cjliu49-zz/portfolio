@@ -1,1 +1,78 @@
-This is my homepage!
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <title>Maddie Simens</title>
+  <link href="stylesheets/application.css" rel="stylesheet" />
+  <link rel="stylesheet" href="animate.min.css">
+  <%= javascript_include_tag "smoothscroll" %>
+  <%= javascript_include_tag "bounce" %>
+</head>
+<body>
+  <a name="top"><div id="home"></a>
+    <div class="animated"><%= image_tag "skinnylogomedium2.png", :class => "logo" %></div>
+    <div id="name">MADDIE SIMENS</div>
+    <div id="bounce"><a href="#about"><%= image_tag "arrowmiddle.png", :class=> "home_arrow" %></a></div>
+  </div>
+
+
+  <a name="about"><div id="about"></a>
+    <%= image_tag "headshot1.jpg", :class => "headshot" %>
+    <div id="about_headline">Hi, I'm Maddie.</div>
+    <div id="about_copy">Student by name and by nature. I am currently in my third year at Northeastern University studying business and interactive media. Here is an excerpt of the very long list of things that I love: user experience design, thoughtful companies, nerdy people, minimalism, books, fettucine alfredo, and Formula 1 racing.<br>
+
+    <br>When I grow up, I want to be a UX/UI designer.<br>And/or Harry Potter.
+    </div>
+  </div>
+
+
+  <a name="work"><div id="work"></a>
+    <div id="work_headline">I'm an apprentice at heart.</div>
+    <div id="work_copy">I've had the privilege of working with some ferociously smart and humble people on projects that I believe in, and I'm hungry for more.<br>
+    <br>
+    These are a few of my most recent adventures. For a more complete snapshot, you can check out my profile on <a href="http://www.linkedin.com/in/madelinesimens">LinkedIn</a>.
+    </div>
+    <%= image_tag "wistia.png", :class => "wistia_logo" %>
+    <div id="wistia_copy">
+    <a href="http://wistia.com", target="_blank">Wistia</a><br>
+    Customer Happiness<br>
+    July - Dec 2013<BR>
+    Boston, MA</div>
+    <%= image_tag "eclub.png", :class => "eclub_logo" %>
+    <div id="eclub_copy">
+    <a href="http://www.northeastern.edu/entrepreneurs/", target="_blank">Northeastern Entrepreneurs Club</a><br>
+    Husky Startup Challenge<br>
+    Sept - Nov 2013<BR>
+    Boston, MA</div>
+    <%= image_tag "launchhousedark.png", :class => "launchhouse_logo" %>
+    <div id="launchhouse_copy">
+    <a href="http://www.launchhouse.com/", target="_blank">LaunchHouse</a><br>
+    Marketing & Curriculum<br>
+    May - June 2013<BR>
+    Cleveland. OH</div>
+  </div>
+
+
+  <a name="contact"><div id="contact"></a>
+    <div id="contact_headline">Get in touch.</div>
+    <div id="contact_copy">I'm also a pretty good listener and an aspiring conversationalist. If you'd like to know more, you can email me at <a href="mailto:maddiesimens@gmail.com?subject=Hi">maddiesimens@gmail.com</a> or find me at one of my favorite e-haunts.</div>
+    <a href="https://twitter.com/maddiesimens", target="_blank"><%= image_tag "twitter.png", :class => "twitter" %></a>
+    <a href="http://www.linkedin.com/in/madelinesimens", target="_blank"><%= image_tag "linkedin.png", :class => "linkedin" %></a>
+    <a href="https://medium.com/@maddiesimens", target="_blank"><%= image_tag "mediumgrey.png", :class => "medium" %></a>
+  </div>
+
+
+  <a name="end"><div id="end"></a>
+    <a href="#top"><%= image_tag "skinnylogomedium2.png", :class => "end_logo" %></a>
+    <div id="end_copy">FIN</div>
+    <%= image_tag "snowflake.png", :class => "snowflake" %>
+    <div id="footer">This site was built on a snowed-in Sunday.</div>
+  </div>
+
+<!--  <div id="navbar">
+    <%= image_tag "circle.png", :class => "home_nav" %>
+    <%= image_tag "circle.png", :class => "about_nav" %>
+    <%= image_tag "circle.png", :class => "work_nav" %>
+    <%= image_tag "circle.png", :class => "contact_nav" %>
+    <%= image_tag "circle.png", :class => "end_nav" %>
+  </div> -->
+</body>

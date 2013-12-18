@@ -1,0 +1,1 @@
+$('#bounce').effect("bounce", { direction:'down', times:5 }, 300);

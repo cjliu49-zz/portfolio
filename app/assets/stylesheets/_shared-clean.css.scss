@@ -1,0 +1,142 @@
+a:link {
+  text-decoration: none;
+  color: #3f3e3d;
+}
+a:visited {
+  text-decoration: none;
+  color:#3f3e3d;
+}
+body {
+  color: #3f3e3d;
+  font-size: 50px;
+  font-family: Raleway, Montserrat;
+.menu {
+  position: relative;
+  font-family: Raleway, Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 9px;
+  display: block;
+  line-height: 105%;
+.hidden {
+  font-weight: 400;
+
+}
+#name {
+  margin-top: 275px;
+}
+#about {
+  margin-left: -409px;
+  margin-top: -60px;
+  white-space: pre;
+  display: block;
+  color: #ffffff;
+    a {
+    width: 50px;
+  }
+}
+#about:hover {
+  color: #ff3e18;
+  left: 300px;
+  opacity: 1;
+  transition: all 400ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */
+}
+#blog {
+  margin-left: -289px;
+  margin-top: -250px;
+  a {
+    width: 50px;
+  }
+  white-space: pre;
+}
+#blog:hover {
+  color: #ff3e18;
+}
+#resume {
+  margin-left: -139px;
+  margin-top: -310px;
+  white-space: pre;
+    a {
+    width: 50px;
+  }
+}
+#resume:hover {
+  color: #ff3e18;
+}
+#contact {
+  margin-left: 183px;
+  margin-top: -155px;
+  white-space: pre;
+    a {
+    width: 50px;
+  }
+}
+#contact:hover {
+  color: #ff3e18; 
+}
+}
+}
+#about_cover {
+  width: 40px;
+  height: 100px;
+  color: #ff3e18;
+  margin-left: 0px;
+  margin-top: 0px;
+  z-index: 1;
+}
+
+/* ABOUT PAGE */
+
+#maddie {
+  color: #3f3e3d;
+  font-size: 50px;
+  font-family: Raleway, Montserrat;
+  position: relative;
+  font-family: Raleway, Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 9px;
+  display: block;
+  line-height: 105%;
+}
+div#nav {
+
+}
+h1 {
+  font-size: 20px;
+  font-family: Raleway, Helvetica, Arial;
+  color: #3f3e3d;
+  font-weight: normal;
+  letter-spacing: 1.5px;
+  vertical-align: baseline;
+  float: left;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+ul {
+  overflow: hidden;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  float: right;
+  margin-right: 60px;
+li {
+  font-size: 15px;
+  &:hover{
+    border-bottom: 3px solid #000000;
+  }
+  font-family: "Brandon-Grotesque", Montserrat, Raleway, Helvetica, Arial;
+  color: #000000;
+  font-weight: medium;
+  letter-spacing: 1px;
+  display: block;
+  float: left;
+  padding: 20px;
+  }
+  }
+/* Begin ABOUT styling */
+
+
+

@@ -1,0 +1,46 @@
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+body {
+div.menu {
+  font-family: Raleway, Montserrat;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 7px
+  display: block;
+div#name {
+  margin-top: 275px;
+}
+#about {
+  margin-left: -420px;
+  margin-top: -60px;
+  white-space: pre;
+}
+#name:hover #about {
+  margin-top:0;
+  opacity: 10%;
+}
+#blog {
+  margin-left: -262px;
+  margin-top: -240px;
+  white-space: pre;
+}
+#resume {
+  margin-left: -124px;
+  margin-top: -300px;
+  white-space: pre;
+}
+#contact {
+  margin-left: 156px;
+  margin-top: -150px;
+  white-space: pre;
+}
+}
+}
+
